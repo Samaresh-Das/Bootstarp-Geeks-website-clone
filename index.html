@@ -1,3 +1,5 @@
+<!--I tried to implement this website as much as possible - https://themes.getbootstrap.com/preview/?theme_id=104836
+I know certain things are not same but I will learn to implement them as I get more familiar with bootstrap, also this site is actually made with react. So it's a mixture of bootstrap and react.-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +23,7 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse  ms-4" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link fw-bold" aria-current="page" href="#">Browse</a>
@@ -97,9 +99,8 @@
     </div>
     <div class="section3 bg-light bg-gradient pb-5">
         <div class="cards mx-lg-5">
-            <h1 class='m-3'>Recommended to you</h1>
-            <div class="cards1 mx-auto">
-
+            <h1 class='m-3 py-5'>Recommended to you</h1>
+            <div class="cards1 mx-auto d-flex justify-content-around">
                 <div class="card mx-auto mx-lg-0 shadow bg-body rounded" style="width: 18rem;">
                     <img src="./Assets/IMAGES/course-graphql.f5dec42e4ae0102ebffa.jpg" alt=""
                         class="card-img-top rounded-top-md">
@@ -115,71 +116,205 @@
                         </p>
                     </div>
                 </div>
-
-            </div>
-
-            <h1 class='m-3'>Most Popular</h1>
-
-            <div class="card mx-auto shadow bg-body rounded" style="width: 18rem;">
-                <img src="./Assets/IMAGES/course-html.427d9d6b3af64832dbc2.jpg" alt=""
-                    class="card-img-top rounded-top-md">
-                <div class="card-body">
-                    <p class="card-text text-wrap fs-3 fw-bold text-secondary text-inherit">HTML
-                        Full Course - Build a Website Tutorial
-                    </p>
-                    <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
-                    <p class='d-inline fs-6'>3h 16m</p>
-                    <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
-                    <p class='d-inline fs-6 lh-lg'>Beginner</p>
-                    <p class='text-dark fw-bold lh-lg'>$550 <span class='text-decoration-line-through'>$700</span></p>
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-javascript.8afdeff32816e30422da.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-node.291fe1cded8ebab181ab.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-react.999d5d4b7ef4771200c2.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <h1 class='m-3'>Trending</h1>
+            <h1 class='m-3 py-5'>Most Popular</h1>
 
-            <div class="card mx-auto shadow bg-body rounded" style="width: 18rem;">
-                <img src="./Assets/IMAGES/course-gatsby.460be4ebbf9db1ccfe5d.jpg" alt=""
-                    class="card-img-top rounded-top-md">
-                <div class="card-body">
-                    <p class="card-text text-wrap fs-3 fw-bold text-secondary text-inherit">Revolutionize how you build
-                        the web
-                    </p>
-                    <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
-                    <p class='d-inline fs-6'>1h 46m</p>
-                    <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
-                    <p class='d-inline fs-6 lh-lg'>Intermediate</p>
-                    <p class='text-dark fw-bold lh-lg'>$800 <span class='text-decoration-line-through'>$1000</span></p>
+            <div class="cards2 mx-auto d-flex justify-content-around">
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded" style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-html.427d9d6b3af64832dbc2.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary text-inherit">HTML
+                            Full Course - Build a Website Tutorial
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>3h 16m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Beginner</p>
+                        <p class='text-dark fw-bold lh-lg'>$550 <span class='text-decoration-line-through'>$700</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-angular.8553e67e04af598d0cc4.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-laravel.48ab426cd3f0adc40dd9.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-python.0e5358f9e53a89fd75bd.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class='m-3 py-5'>Trending</h1>
+
+            <div class="cards3 mx-auto d-flex justify-content-around">
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded" style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-gatsby.460be4ebbf9db1ccfe5d.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary text-inherit">Revolutionize how you
+                            build
+                            the web
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>1h 46m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Intermediate</p>
+                        <p class='text-dark fw-bold lh-lg'>$800 <span class='text-decoration-line-through'>$1000</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-python.0e5358f9e53a89fd75bd.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-react.999d5d4b7ef4771200c2.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card mx-auto mx-lg-0 shadow bg-body rounded d-none d-sm-block d-md-none d-lg-block d-sm-none d-md-block"
+                    style="width: 18rem;">
+                    <img src="./Assets/IMAGES/course-javascript.8afdeff32816e30422da.jpg" alt=""
+                        class="card-img-top rounded-top-md">
+                    <div class="card-body">
+                        <p class="card-text text-wrap fs-3 fw-bold text-secondary">GraphQL: introduction to graphQL for
+                            beginners
+                        </p>
+                        <img src="./Assets/Logos/icons8-clock-48 black.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6'>2h 40m</p>
+                        <img src="./Assets/Logos/icons8-bar-chart-48.png" alt="" class='d-inline' height='15px'>
+                        <p class='d-inline fs-6 lh-lg'>Advance</p>
+                        <p class='text-dark fw-bold lh-lg'>$500 <span class='text-decoration-line-through'>$600</span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <hr class='text-black-50 mx-4'>
-    <footer class='bg-light bg-gradient'>
+    <footer class='bg-light bg-gradient d-lg-flex justify-content-lg-around'>
         <p class='text-center fw-bold text-black-50'> &copy; 2022 Geeks. All Rights Reserved.</p>
         <div class="d-flex justify-content-around fw-bold text-black-50">
-            <p>Privacy</p>
-            <p>Terms</p>
-            <p>Feedback</p>
-            <p>Support</p>
+            <p class='mx-lg-4'>Privacy</p>
+            <p class='mx-lg-4'>Terms</p>
+            <p class='mx-lg-4'>Feedback</p>
+            <p class='mx-lg-4'>Support</p>
         </div>
     </footer>
-
-    <div class="section3 bg-light bg-gradient">
-        <div class="cards p-5">
-            <h1>Recommended to you</h1>
-
-            <div class="card" style="width: 18rem;">
-                <img src="./Assets/IMAGES/course-graphql.f5dec42e4ae0102ebffa.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text text-wrap">GraphQL: introduction to graphQL for beginners
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
